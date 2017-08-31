@@ -1,3 +1,4 @@
+#https://www.hackerrank.com/challenges/sherlock-and-valid-string
 #!/bin/python
 from collections import Counter
 import sys
