@@ -10,7 +10,7 @@ def super_reduced_string(s):
         if not stack or s[i] != stack[-1]:
             stack += [s[i]]
         else:
-            stack.pop()
+            del stack[-1]
     return ''.join(stack)
 
 s = input().strip()
@@ -19,3 +19,4 @@ if result:
     print(result)
 else:
     print("Empty String")
+
