@@ -1,3 +1,5 @@
+#https://www.hackerrank.com/challenges/reduced-string
+
 #!/bin/python3
 import sys
 
