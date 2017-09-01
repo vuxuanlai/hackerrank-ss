@@ -5,7 +5,7 @@ import sys
 
 def super_reduced_string(s):
     # Complete this function
-    stack = list
+    stack = list()
     for i in range(len(s)):
         if not stack or s[i] != stack[-1]:
             stack += [s[i]]
